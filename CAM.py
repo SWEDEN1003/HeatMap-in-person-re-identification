@@ -9,7 +9,7 @@ from torch.autograd import Variable
 from torch.nn import functional as F
 import cv2
 from PIL import Image
-net = models.resnet18(pretrained=True)
+net = models.resnet18(pretrained=True)# you can use your trained model instead of this 'resnet18'
 
 
 features_blobs=[]
@@ -46,7 +46,7 @@ preprocess = transforms.Compose([
    normalize
 ])
 
-img_pil = Image.open('/home/shiweidong/PycharmProjects/pytorch/test.jpg')
+img_pil = Image.open('/home/shiweidong/PycharmProjects/pytorch/test.jpg') # use your image of path
 img_tensor = preprocess(img_pil)
 img_variable = Variable(img_tensor.unsqueeze(0))
 logit = net(img_variable)
