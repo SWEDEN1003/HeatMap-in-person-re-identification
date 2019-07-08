@@ -9,4 +9,6 @@
 
 通过CAM.py实现了如下的热度图展示，模型直接采用imagenet预训练好的模型，因此效果上可能没有那么好，但是这不影响heatmap的实现。
 
-
+![image](https://github.com/SWEDEN1003/HeatMap-in-person-re-identification/blob/master/CAM.jpg)
+![image](https://github.com/SWEDEN1003/HeatMap-in-person-re-identification/blob/master/CAM1.jpg)
+![image](https://github.com/SWEDEN1003/HeatMap-in-person-re-identification/blob/master/CAM2.jpg)
