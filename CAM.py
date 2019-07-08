@@ -9,8 +9,9 @@ from torch.autograd import Variable
 from torch.nn import functional as F
 import cv2
 from PIL import Image
-net = models.resnet18(pretrained=True)# you can use your trained model instead of this 'resnet18'
+net = models.resnet50(pretrained=True)# you can use your trained model instead of this 'resnet18'
 
+net.eval()
 
 features_blobs=[]
 def hook_feature(module,input,output):
