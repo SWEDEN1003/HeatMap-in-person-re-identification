@@ -1,6 +1,5 @@
 # HeatMap-in-person-re-identification
-<h1>如何在行人重识别领域针对图像画出热度图<h1/>
-
+<b>如何在行人重识别领域针对图像画出热度图<b/>
 
 原始图像图下
 
